@@ -13,8 +13,13 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-
+ /* SPDX-License-Identifier: GPL-2.0-or-later */ 
 #pragma once
+
+#define VIAL_KEYBOARD_UID {0xDD, 0xEF, 0xC0, 0xED, 0x89, 0x8D, 0x30, 0x8B}
+
+#define VIAL_UNLOCK_COMBO_ROWS { 0, 0 }
+#define VIAL_UNLOCK_COMBO_COLS { 0, 14 }
 
 #include "config_common.h"
 
@@ -40,11 +45,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define ENCODERS_PAD_A { D0 }
 #define ENCODER_RESOLUTION 2 //default/suggested
 
+
 /* COL2ROW, ROW2COL*/
 #define DIODE_DIRECTION COL2ROW
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
-#define DEBOUNCE 10
+#define DEBOUNCE 5
 
 /* Mechanical locking support. Use KC_LCAP, KC_LNUM or KC_LSCR instead in keymap */
 #define LOCKING_SUPPORT_ENABLE
@@ -81,3 +87,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define TAPPING_TERM 200
 
 #define NO_ACTION_ONESHOT
+
+#define DYNAMIC_KEYMAP_LAYER_COUNT 4
+#define VIAL_KEY_OVERRIDE_ENTRIES 4

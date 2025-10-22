@@ -27,5 +27,3 @@
 /* Locking resynchronize hack */
 #define LOCKING_RESYNC_ENABLE
 
-#define LED_CAPS_LOCK_PIN B0
-

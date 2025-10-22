@@ -10,7 +10,7 @@
 
 Make example for this keyboard (after setting up your build environment):
 
-     qmk compile -kb lyso1/julie60_rp2040 -km vial qmk compile -kb lyso1/julie60_rp2040 -km vial
+     qmk compile -kb lyso1/julie60_rp2040 -km vial
 
 Flashing example for this keyboard:
 

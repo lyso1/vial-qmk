@@ -12,7 +12,6 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-#include "lck75.h"
 
 #define IDLE_FRAMES 5
 #define IDLE_SPEED 30
